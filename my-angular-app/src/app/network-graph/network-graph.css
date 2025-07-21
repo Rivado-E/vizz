@@ -1,0 +1,82 @@
+.network-graph-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.controls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.toggle-btn {
+  padding: 8px 16px;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.toggle-btn:hover {
+  background: #2563eb;
+}
+
+.legend {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.legend div {
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 12px;
+  color: white;
+  font-weight: 500;
+}
+
+svg {
+  border: 1px solid #e5e7eb;
+  background: #fafafa;
+}
+
+.label {
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  fill: #374151;
+  pointer-events: none;
+}
+
+.dimmed {
+  opacity: 0.2;
+}
+
+.focused {
+  stroke-width: 4px !important;
+}
+
+circle {
+  cursor: pointer;
+  stroke: #fff;
+  stroke-width: 2px;
+  transition: all 0.2s ease;
+}
+
+circle:hover {
+  stroke-width: 3px;
+}
+
+line {
+  transition: opacity 0.2s ease;
+}
+
+.label {
+  transition: opacity 0.2s ease;
+}

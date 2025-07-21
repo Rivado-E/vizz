@@ -1,0 +1,5 @@
+[{"name":"John_Senior","parent":null,"level":"s"},
+    {"name":"Alice_Parent","parent":"John_Senior","level":"p"},
+    {"name":"Bob_Middle","parent":"Alice_Parent","level":"m"},
+    {"name":"Carol_Parent","parent":"John_Senior","level":"p"},
+    {"name":"Dave_Middle","parent":"Carol_Parent","level":"m"}]

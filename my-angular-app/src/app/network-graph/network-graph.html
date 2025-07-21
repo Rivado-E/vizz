@@ -1,0 +1,9 @@
+<div class="network-graph-container">
+  <div class="controls">
+    <button (click)="toggleView()" class="toggle-btn">
+      {{ viewButtonText }}
+    </button>
+    <div #legend class="legend"></div>
+  </div>
+  <svg #svg width="100%" height="600"></svg>
+</div>
